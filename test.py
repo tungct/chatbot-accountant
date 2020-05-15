@@ -44,7 +44,6 @@ def LemTokens(tokens):
 
 remove_punct_dict = dict((ord(punct), None) for punct in string.punctuation)
 
-
 def LemNormalize(text):
     return LemTokens(nltk.word_tokenize(text.lower().translate(remove_punct_dict)))
 

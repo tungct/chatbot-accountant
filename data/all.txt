@@ -1,0 +1,106 @@
+###1 Em tư vấn cho Tôi phần mềm bên mình với, Tôi đang có nhu cầu muốn mua
+###1 Báo giá phần mềm cho Tôi
+###1 Phần mềm bên mình giờ giá cả thế nào em nhỉ, có khuyến mại hay ưu đãi cho khách hàng cũ không em
+###1 Mình đang tìm hiểu về phần mềm kế toán và được giới thiệu là nên sử dụng phần mềm kế toán Nhất Nam, bên bạn tư vấn giúp mình về sản phẩm với.
+###1 Tôi đã mua phần mềm bên mình rồi, giờ muốn mua thêm máy nữa thì giá cả thế nào hả em
+###1 Bên mình làm về lĩnh vực xây dựng, mình có tìm hiểu và được biết là phần mềm kế toán Nhất Nam là phần mềm chuyên xây dựng, mình muốn dùng thử thì chi phí như thế nào
+###1 Trước Tôi có dùng phần mềm bên em rồi đấy, giờ Tôi muốn mua lại thì chi phí thế nào hả em
+###1 Phần mềm mình hiện giá cả thế nào em nhỉ
+
+###2 Hướng dẫn tôi cách nhập kho vật tư
+###2 Hướng dẫn tôi cách xuất bán vật tư, ghi nhận doanh thu và giá vốn
+###2 Hướng dẫn tôi cách xuất vật tư vào sản xuất
+###2 Bên tôi làm thương mại bán hàng hóa, nên mỗi ngày có rất nhiều hóa đơn nhập và xuất hàng, hướng dẫn tôi cách nhập với.
+###2 Tôi có hóa đơn nhập hàng, phải nhập thế nào để lên được báo cáo nhập xuất tồn
+###2 Công ty tôi vừa sản xuất vừa thương mại, thì phải nhập vật tư và phân loại vật tư thế nào?
+###2 Tôi muốn xem bảng tồn kho, thì phải nhập thế nào vào phần mềm
+###2 Hướng dẫn tôi cách nhập xuất hàng hóa để lên báo cáo tính giá vốn chênh lệch lãi lỗ hàng bán
+###2 Tôi nhập hàng hóa về và có thêm phần chiết khấu thì nhập số tiền chiết khấu đó như thế nào?
+###2 Bên tôi có nhập hàng của 1 nhà cung cấp, nhập hàng đến 1 mức ưa đãi của nhà cung cấp thì sẽ được chiết khấu 10%, hóa đơn chiết khấu không cố định, vậy tôi phải nhập thế nào?
+###2 Công ty tôi làm thương mại bán hang, và thỉnh thoảng có chiết khấu cho khách, tôi muốn thể hiện số tiền chiết khấu thì phải nhập vào đâu
+###2 Hướng dẫn tôi cách phân bổ chiết khấu cho từng mặt hàng
+
+###3 Hướng dẫn tôi cách nhập chứng từ hóa đơn
+###3 Tôi muốn nhập hóa đơn đầu ra đầu vào thì vào đâu được
+###3 Cách hạch toán trong phần mềm như thế nào
+###3 Tôi muốn nhập sổ phụ ngân hàng và các hóa đơn đầu ra đầu vào thì vào đâu
+###3 Hãy hướng dẫn Tôi cách nhập chứng từ phiếu thu, chi cho các hóa đơn
+###3 Hướng dẫn Tôi cách nhập đầu ra, đầu vào để kê khai thuế
+###3 Hướng dẫn tôi cái cơ bản nhất của phần mềm
+
+###4 Tôi có 1 hóa đơn mua Laptop, hướng dẫn tôi cách nhập vào phần mềm để tự động phân bổ chi phí hằng tháng
+###4 Bên công ty tôi mới mua 1 tài sản là cái xe oto, hướng dẫn tôi cách nhập tài sản này vào phần mềm
+###4 Tôi muốn thanh lý tài sản cố định thì phải nhập thế nào
+###4 Tôi có hóa đơn chi tiền mặt để mua bàn ghế, thì nhập vào phần công cụ dụng cụ hay nhập vào phiếu chi tiền mặt
+###4 Tôi muốn phân bổ tự động tài sản cố định trên phần mềm thì phải nhập thế nào
+
+###5 Năm 2019 này tôi mới bắt đầu sử dụng phần mềm, tôi muốn nhập số dư đầu thì phải vào đâu
+###5 Tôi muốn điều chỉnh lại số dư của năm 2015 thì vào đâu
+###5 Hướng dẫn tôi nhập số dư đầu
+###5 Tôi muốn nhập tồn kho thì vào đâu
+###5 Tôi muốn nhập số dư đầu chi tiết cho từng công nợ
+
+###6 Hướng dẫn Tôi cách hạch toán thuế thu nhập doanh nghiệp
+###6 Bạn hạch toán luôn cho Tôi khoản thuế thu nhập doanh nghiệp đi
+###6 Bạn có biết cách tính thuế thu nhập doanh nghiệp không
+
+###7 Tôi có phiếu nhập tháng 10/2019, không thấy lên bảng cân đối phát sinh và sổ cái, nhưng trong số chi tiết vật tư vẫn có, đây là lỗi gì vậy, và phải sửa thế nào
+###7 Sao số liệu trong bảng cân đối phát sinh và trong bảng cân đối nhập xuất tồn lại bị lệch nhau?
+###7 Giữa sổ cái và sổ chi tiết vật tư không khớp nhau là bị lỗi gì vậy?
+
+###8 Phần mềm mình có định mức nguyên vật liệu không?
+###8 Hướng dẫn Tôi cách nhập định mức nguyên vật liệu
+###8 Bên Tôi là đơn vị xây lắp thi công, sản xuất ra thành phẩm, hãy tư vấn Tôi cách thức hạch toán trên phần mềm sao cho đơn giản nhất mà vẫn ra đầy đủ báo cáo
+
+###9 Hoặc nhiều công nợ theo dõi 1 công trình
+###9 Tôi muốn có 1 báo cáo mà xem được một công trình có bao nhiêu công nợ đang thầu thì vào đâu để xem
+###9 Phần mềm có xem được chi tiết để biết được công nợ này đang treo bao nhiêu hợp đồng không
+###9 Tôi muốn xem sổ chi tiết của công nợ khách hàng thì vào đâu được nhỉ?
+
+###10 Bên phần mềm mình có nhập xuất thẳng vật tư được không
+###10 Tôi có 1 vật tư không qua kho, muốn xuất thẳng nó ra công trình
+###10 Tôi muốn nhập vật tư và xuất luôn thì hạch toán thế nào
+
+###11 Tôi muốn xem hàng hóa bên Tôi còn tồn bao nhiêu thì vào đâu để xem
+###11 Tôi muốn xem chi tiết vật tư xuất theo các công trình thì vào đâu
+###11 Tôi muốn xem bảng cân đối nhập xuất hàng hóa
+
+###12 Sao phần mềm không gõ được tiếng việt vậy?
+###12 Sau khi bên bạn cài phần mềm xong, Tôi không gõ được tiếng việt nữa, hãy chỉnh lại giúp Tôi đi
+
+###13 Tôi không sử dụng được hàm Lookup trong excel, xem hộ Tôi với
+###13 Tại sao Tôi tải sổ phụ ngân hàng xuống, mà lại bị lỗi định dạng “chấm” “phẩy” làm Tôi không thể dung hàm Sum để cộng các số vào được
+
+###14 Tôi Tính Toán mà nó cứ ghi tính toán mãi, không thấy dừng, phần mềm bị lỗi gì vậy?
+###14 Tôi bấm Tính toán mà nó báo lỗi không cho Tính toán là bị lỗi gì thế ?
+
+###15 Tôi muốn tạo thêm dữ liệu nội bộ cho dữ liệu HA có được không?
+###15 Bạn tạo giúp Tôi 1 dữ liệu đi vay ngân hàng nữa, để Tôi theo dõi riêng
+###15 Tôi cần theo dõi nội bộ riêng và thuế riêng, hãy tạo cho Tôi 2 dữ liệu luôn nhé
+
+###16 Bên tôi là đơn vị chuyên làm báo cáo tài chính, nên cần tạo rất nhiều dữ liệu, hãy hướng dẫn tôi cách tạo thêm dữ liệu mới
+###16 Tôi đang cần tạo 1 công ty mới, hướng dẫn tôi cách tạo
+###16 Bạn tạo giúp tôi dữ liệu cho công ty mới
+###16 Tôi muốn làm thêm 1 dữ liệu nữa cho công ty khác có được không, và chi phí thế nào?
+
+###17 Tôi kết xuất báo cáo ra excel, mà nó cứ không cho xuất xong thấy thoát luôn khỏi phần mềm
+###17 Sao Tôi không kết xuất được báo cáo ra excel nhỉ, cứ bấm nút Excel là nó lại tự động thoát
+###17 Phần mềm bị lỗi rồi, không kết xuất được báo cáo ra excel, xem cho Tôi với”
+
+###18 Em ơi, ở máy trạm của bạn A, Tôi chỉ muốn bạn ý xem được dữ liệu HA, NB thôi, thì có được không
+###18 Ở máy trạm của bạn B, Tôi không muốn bạn ý vào được dữ liệu VC, em chặn giúp Tôi
+
+###19 Tôi muốn mang dữ liệu về nhà để làm có được không
+###19 Tôi mới đổi máy, em cài phần mềm và chuyển dữ liệu sang máy này cho Tôi
+
+###20 Mỗi lần Tôi nhập chứng từ lại phải nhập số phiếu, mà lắm lúc không nhớ là đã đến số bao nhiêu rồi, phần mềm mình có tự động nhảy số phiếu được không
+
+###21 Máy trạm không vào được phần mềm bạn ơi
+###21 Biểu tương kế toán ở máy trạm bị mất, lấy lại giúp Tôi
+###21 Máy trạm tính toán hay in báo cáo bị châm quá là tại sao vậy
+
+###22 Tại sao các phần mềm khác không có khóa cứng mà phần mềm kế toán bên mình lại có?
+###22 Khóa cứng có tác dụng gì vậy?
+###22 Khóa cứng có lưu trữ được dữ liệu không?
+###22 Khóa cứng bị mất thì có được cấp lại khóa khác không?
+

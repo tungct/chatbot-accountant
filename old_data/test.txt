@@ -1,0 +1,16 @@
+###2 Công ty tôi vừa sản xuất vừa thương mại, thì phải nhập vật tư và phân loại vật tư thế nào?
+###11 Tôi muốn xem chi tiết vật tư xuất theo các công trình thì vào đâu
+###21 Biểu tương kế toán ở máy trạm bị mất, lấy lại giúp Tôi
+###19 Tôi muốn mang dữ liệu về nhà để làm có được không
+###8 Hướng dẫn Tôi cách nhập định mức nguyên vật liệu
+###15 Bạn tạo giúp Tôi 1 dữ liệu đi vay ngân hàng nữa, để Tôi theo dõi riêng
+###7 Giữa sổ cái và sổ chi tiết vật tư không khớp nhau là bị lỗi gì vậy?
+###3 Tôi muốn nhập hóa đơn đầu ra đầu vào thì vào đâu được
+###1 Mình đang tìm hiểu về phần mềm kế toán và được giới thiệu là nên sử dụng phần mềm kế toán Nhất Nam, bên bạn tư vấn giúp mình về sản phẩm với.
+###2 Tôi nhập hàng hóa về và có thêm phần chiết khấu thì nhập số tiền chiết khấu đó như thế nào?
+###10 Tôi muốn nhập vật tư và xuất luôn thì hạch toán thế nào
+###13 Tôi không sử dụng được hàm Lookup trong excel, xem hộ Tôi với
+###14 Tôi Tính Toán mà nó cứ ghi tính toán mãi, không thấy dừng, phần mềm bị lỗi gì vậy?
+###7 Sao số liệu trong bảng cân đối phát sinh và trong bảng cân đối nhập xuất tồn lại bị lệch nhau?
+###4 Tôi có hóa đơn chi tiền mặt để mua bàn ghế, thì nhập vào phần công cụ dụng cụ hay nhập vào phiếu chi tiền mặt
+###15 Tôi muốn tạo thêm dữ liệu nội bộ cho dữ liệu HA có được không?

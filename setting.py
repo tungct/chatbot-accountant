@@ -7,3 +7,6 @@ TRAIN_PATH = DATA_PATH + 'train.txt'
 TFIDF_VEC_PATH = DATA_PATH + 'tfidf_vec.pickle'
 TFIDF_DOC_PATH = DATA_PATH + 'tfidf_docs.pickle'
 
+COUNT_VEC_PATH = DATA_PATH + 'count_vec.pickle'
+COUNT_DOC_PATH = DATA_PATH + 'count_docs.pickle'
+

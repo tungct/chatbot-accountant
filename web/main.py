@@ -1,4 +1,8 @@
 from flask import *
+from src.clf_utils import Clf_Utils
+
+clf_util = Clf_Utils()
+
 app = Flask(__name__, static_url_path="/static")
 @app.route('/')
 def index():
@@ -11,11 +15,11 @@ def index():
 
 @app.route('/m', methods=['POST'])
 def response_message():
-    msg = 'test'
-    with open('../data/qa.txt', 'r') as f:
-        res = f.readlines()
+    question = request.form['m']
+    cl_id = clf_util.predict([question])
+    answer = clf_util.response_answer(cl_id[0])
     return json.dumps({
-        'message': res
+        'message': answer
     })
 if __name__ == '__main__':
     app.secret_key = 'A0Zr98j/3yX R~XHH!jmN]LWX/,?RT'

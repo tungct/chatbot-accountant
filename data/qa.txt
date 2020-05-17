@@ -1,14 +1,13 @@
-1
 Xin chào quý khách, cảm ơn quý khách đã quan tâm đến sản phẩm Phần mềm kế toán bên chúng tôi.
 Phần mềm kế toán Nhất Nam, hiện có 2 gói:
 Gói Thường cho doanh nghiệp:
-Máy chủ (máy đầu tiên) có giá là 6.000.000
-Máy trạm (máy thứ 2 trở đi) có giá là 4.000.000/máy
+    Máy chủ (máy đầu tiên) có giá là 6.000.000
+    Máy trạm (máy thứ 2 trở đi) có giá là 4.000.000/máy
 Gói VIP:
-Máy chủ (máy đầu tiên) có giá là 8.000.000
-Máy trạm (máy thứ 2 trở đi) có giá là 4.000.000/máy
-Với gói VIP khách hàng có thể yêu cầu chỉnh sửa phần mềm và gọi hỗ trợ 24/7 bất kỳ thời gian nào (kể cả 2 giờ đêm, ngày nghỉ, ngày lễ …)
-Quý khách có nhu cầu dùng thử, trước tiên chúng tôi sẽ hỗ trợ quý khách miễn phí:
-Cài đặt và vận hành phần mềm kế toán Nhất Nam
-Hướng dẫn quý khách nhập liệu 1 quý, quyết toán ra đầy đủ các báo cáo theo đúng yêu cầu tài chính của đơn vị. Để quý khách có thể trải nghiệm phần mềm cũng như thấy được tính hay dở.
-Nếu thấy hài lòng 2 bên sẽ thỏa thuận và mới ký hợp đồng
+    Máy chủ (máy đầu tiên) có giá là 8.000.000
+    Máy trạm (máy thứ 2 trở đi) có giá là 4.000.000/máy
+    Với gói VIP khách hàng có thể yêu cầu chỉnh sửa phần mềm và gọi hỗ trợ 24/7 bất kỳ thời gian nào (kể cả 2 giờ đêm, ngày nghỉ, ngày lễ …)
+    Quý khách có nhu cầu dùng thử, trước tiên chúng tôi sẽ hỗ trợ quý khách miễn phí:
+    Cài đặt và vận hành phần mềm kế toán Nhất Nam
+    Hướng dẫn quý khách nhập liệu 1 quý, quyết toán ra đầy đủ các báo cáo theo đúng yêu cầu tài chính của đơn vị. Để quý khách có thể trải nghiệm phần mềm cũng như thấy được tính hay dở.
+    Nếu thấy hài lòng 2 bên sẽ thỏa thuận và mới ký hợp đồng

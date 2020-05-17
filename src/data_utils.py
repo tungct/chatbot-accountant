@@ -19,6 +19,16 @@ class Data_Utils():
         #if os.path.exists(setting.TFIDF_DOC_PATH) == False:
         self.tfidf = self.process_data()
 
+    def map_qa(self):
+        xl = self.io_utils.load_xlsx(setting.QA_PATH)
+        qa = {
+            '0': 'Chúng tôi sẽ trả lời bạn sau'
+        }
+        for idx in range(len(xl)):
+            stt, answer = xl['stt'][idx], xl['answer'][idx]
+            qa[str(stt)] = answer
+        return qa
+
     def load_data(self, path_data):
         with open(path_data, 'r', encoding='utf8', errors='ignore') as f:
             raw = f.readlines()
@@ -62,7 +72,7 @@ class Data_Utils():
 if __name__ == '__main__':
     data_utils = Data_Utils()
     io_utils = Io_Utils()
-    new_doc = 'Hướng dẫn tôi cách nhập kho vật tư'
+    new_doc = 'Phần mềm mình hiện giá cả thế nào em nhỉ'
     new_doc = data_utils.normalize_sentence(new_doc)
     tfidf_vec = io_utils.load_pickle(setting.TFIDF_VEC_PATH)
     tfidf_doc = io_utils.load_pickle(setting.TFIDF_DOC_PATH)
@@ -77,8 +87,9 @@ if __name__ == '__main__':
     print("TFIDF")
     req_tfidf = flat[-1]
     print(req_tfidf)
-    print(data_utils.sent_tokens[idx])
     print(data_utils.labels[idx])
+    print(data_utils.sent_tokens[idx])
+
     req_tfidf = flat[-2]
     print(req_tfidf)
     print(data_utils.sent_tokens[idx_2])

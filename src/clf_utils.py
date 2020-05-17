@@ -29,6 +29,8 @@ class Clf_Utils():
 if __name__ == '__main__':
     sentences = ['Em ơi, ở máy trạm của bạn A, Tôi chỉ muốn bạn ý xem được dữ liệu HA, NB thôi, thì có được không']
     clf_utils = Clf_Utils()
+    sentences,labels = clf_utils.data_utils.load_data(setting.TEST_PATH)
+    print(labels)
     print(clf_utils.predict(sentences))
 
 

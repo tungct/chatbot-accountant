@@ -15,12 +15,12 @@ class Data_Utils():
         self.TfidfVec = TfidfVectorizer()
         self.CountVec = CountVectorizer()
         self.io_utils = Io_Utils()
-        self.sent_tokens, self.labels = self.load_data()
+        self.sent_tokens, self.labels = self.load_data(setting.TRAIN_PATH)
         #if os.path.exists(setting.TFIDF_DOC_PATH) == False:
         self.tfidf = self.process_data()
 
-    def load_data(self):
-        with open(setting.TRAIN_PATH, 'r', encoding='utf8', errors='ignore') as f:
+    def load_data(self, path_data):
+        with open(path_data, 'r', encoding='utf8', errors='ignore') as f:
             raw = f.readlines()
         sent_tokens, labels = [], []
         for i in range(len(raw)):

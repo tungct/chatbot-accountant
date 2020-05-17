@@ -22,7 +22,8 @@ class Data_Utils():
     def map_qa(self):
         xl = self.io_utils.load_xlsx(setting.QA_PATH)
         qa = {
-            '0': 'Chúng tôi sẽ trả lời bạn sau'
+            '0': 'Chúng tôi sẽ trả lời bạn sau',
+            '23': 'Xin chào quý khách! Tôi có thể giúp gì ạ?'
         }
         for idx in range(len(xl)):
             stt, answer = xl['stt'][idx], xl['answer'][idx]
@@ -72,8 +73,9 @@ class Data_Utils():
 if __name__ == '__main__':
     data_utils = Data_Utils()
     io_utils = Io_Utils()
-    new_doc = 'Phần mềm mình hiện giá cả thế nào em nhỉ'
+    new_doc = 'giá sản phẩm như nào thế'
     new_doc = data_utils.normalize_sentence(new_doc)
+    print(new_doc)
     tfidf_vec = io_utils.load_pickle(setting.TFIDF_VEC_PATH)
     tfidf_doc = io_utils.load_pickle(setting.TFIDF_DOC_PATH)
 

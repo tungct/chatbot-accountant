@@ -66,6 +66,14 @@
 ###22 Khóa cứng có tác dụng gì vậy?
 ###10 Tôi có 1 vật tư không qua kho, muốn xuất thẳng nó ra công trình
 ###8 Bên Tôi là đơn vị xây lắp thi công, sản xuất ra thành phẩm, hãy tư vấn Tôi cách thức hạch toán trên phần mềm sao cho đơn giản nhất mà vẫn ra đầy đủ báo cáo
+
+###1 Giá phầm mềm
+###1 Giá sản phẩm
+###1 Giá cả
+###1 Phần mềm bao nhiêu tiền
+###1 Chi phí sản phẩm
+###1 Chi phí phần mềm
+
 ###1 Giá cả phần mềm
 ###2 Hướng dẫn nhập chứng từ vật tư
 ###3 Hướng dẫn cách nhập chứng từ kế toán

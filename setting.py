@@ -3,8 +3,10 @@ import os
 DIR_PATH = os.path.dirname(os.path.realpath(__file__))
 
 DATA_PATH = DIR_PATH + '/data/'
-TRAIN_PATH = DATA_PATH + 'train.txt'
+TRAIN_PATH = DATA_PATH + 'all.txt'
 TEST_PATH = DATA_PATH + 'test.txt'
+
+LOG_PATH = DATA_PATH + 'log.txt'
 
 QA_PATH = DATA_PATH + 'chatbot-accountant-qa.xlsx'
 

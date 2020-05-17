@@ -104,3 +104,38 @@
 ###22 Khóa cứng có lưu trữ được dữ liệu không?
 ###22 Khóa cứng bị mất thì có được cấp lại khóa khác không?
 
+###1 Giá phầm mềm
+###1 Giá sản phẩm
+###1 Giá cả
+###1 Phần mềm bao nhiêu tiền
+###1 Chi phí sản phẩm
+###1 Chi phí phần mềm
+
+###1 Giá cả phần mềm
+###2 Hướng dẫn nhập chứng từ vật tư
+###3 Hướng dẫn cách nhập chứng từ kế toán
+###4 Hướng dẫn nhập CCDC, TSCD
+###5 Hướng dẫn nhập số dư đầu
+###6 Thuế thu nhập doanh nghiệp
+###7 Số liệu trong phiếu nhập vật tư
+###8 Định mức nguyên vật liệu
+###9 Xem báo cáo chi tiết đối tượng
+###10 Nhập xuất thằng vật tư
+###11 Tồn kho
+###12 Không gõ được tiếng việt
+###13 Bị lỗi dấu chấm phẩy ở excel
+###14 Bị lỗi khi TÍNH TOÁN số dư
+###15 Tạo thêm dữ liệu NỘI BỘ
+###16 Tạo dữ liệu mới
+###17 Lỗi không xuất ra file excel được
+###18 Máy trạm chỉ được phép nhìn thấy một số dữ liệu
+###19 Cách chuyển dữ liệu từ máy này sang máy khác
+###20 Tự động nhảy số phiếu
+###21 Lỗi không kết nối được giữa máy chủ và máy trạm
+###22 Tác dụng của khóa cứng
+
+###23 Xin chào
+###23 Chào
+###23 Kính chào
+###23 Hi
+###23 Hello

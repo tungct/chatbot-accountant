@@ -5,6 +5,7 @@ DIR_PATH = os.path.dirname(os.path.realpath(__file__))
 DATA_PATH = DIR_PATH + '/data/'
 TRAIN_PATH = DATA_PATH + 'all.txt'
 TEST_PATH = DATA_PATH + 'test.txt'
+GREETING_PATH = DATA_PATH + 'greeting.txt'
 
 LOG_PATH = DATA_PATH + 'log.txt'
 

@@ -3,7 +3,7 @@ import string
 from src.io_utils import Io_Utils
 from sklearn.metrics.pairwise import cosine_similarity
 import setting
-import os.path
+
 stop_words = [
     'tôi', 'em', 'chị', 'mình', 'với', 'vậy', 'như thế nào', 'không', 'thế nào',
     'thì', 'muốn', 'mà', 'để', 'phải', 'hãy', 'đang', 'cần', 'và', 'có', 'tại sao',
@@ -17,17 +17,17 @@ class Data_Utils():
         self.io_utils = Io_Utils()
         self.sent_tokens, self.labels = self.load_data(setting.TRAIN_PATH)
         #if os.path.exists(setting.TFIDF_DOC_PATH) == False:
-        self.tfidf = self.process_data()
+        # self.tfidf = self.process_data()
 
     def map_qa(self):
         xl = self.io_utils.load_xlsx(setting.QA_PATH)
         qa = {
-            '0': 'Chúng tôi sẽ trả lời bạn sau',
-            '23': 'Xin chào quý khách! Tôi có thể giúp gì ạ?'
+            0: 'Chúng tôi sẽ trả lời bạn sau',
+            -1: 'Xin chào quý khách! Tôi có thể giúp gì ạ?'
         }
         for idx in range(len(xl)):
             stt, answer = xl['stt'][idx], xl['answer'][idx]
-            qa[str(stt)] = answer
+            qa[int(stt)] = answer
         return qa
 
     def load_data(self, path_data):
@@ -40,7 +40,7 @@ class Data_Utils():
                 label = data.split(' ')[0].replace('###', '')
                 sent = data.split('###' + label)[1]
                 sent_tokens.append(sent)
-                labels.append(label)
+                labels.append(int(label))
         return sent_tokens, labels
 
     def normalize_sentence(self, sentence):
@@ -55,20 +55,22 @@ class Data_Utils():
         sentence = ' '.join(sentences)
         return sentence
 
-    def process_data(self):
-        for idx in range(len(self.sent_tokens)):
-            sent = self.sent_tokens[idx]
+    def process_data(self, sent_tokens, labels):
+        self.sent_tokens = sent_tokens
+        self.labels = labels
+        for idx in range(len(sent_tokens)):
+            sent = sent_tokens[idx]
             sent = self.normalize_sentence(sent)
-            self.sent_tokens[idx] = sent
-        self.tfidf = self.TfidfVec.fit_transform(self.sent_tokens)
-        self.count = self.CountVec.fit_transform(self.sent_tokens)
+            sent_tokens[idx] = sent
+        self.tfidf = self.TfidfVec.fit_transform(sent_tokens)
+        self.count = self.CountVec.fit_transform(sent_tokens)
 
-        self.io_utils.save_pickle(self.TfidfVec, setting.TFIDF_VEC_PATH)
-        self.io_utils.save_pickle(self.tfidf, setting.TFIDF_DOC_PATH)
-
-        self.io_utils.save_pickle(self.CountVec, setting.COUNT_VEC_PATH)
-        self.io_utils.save_pickle(self.count, setting.COUNT_DOC_PATH)
-        return self.count
+        # self.io_utils.save_pickle(self.TfidfVec, setting.TFIDF_VEC_PATH)
+        # self.io_utils.save_pickle(self.tfidf, setting.TFIDF_DOC_PATH)
+        #
+        # self.io_utils.save_pickle(self.CountVec, setting.COUNT_VEC_PATH)
+        # self.io_utils.save_pickle(self.count, setting.COUNT_DOC_PATH)
+        return self.tfidf, self.TfidfVec
 
 if __name__ == '__main__':
     data_utils = Data_Utils()

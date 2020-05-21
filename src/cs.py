@@ -13,7 +13,8 @@ class CS():
         self.stop_words = [
             'tôi', 'em', 'chị', 'mình', 'với', 'vậy', 'như thế nào', 'không', 'thế nào',
             'thì', 'muốn', 'mà', 'để', 'phải', 'hãy', 'đang', 'cần', 'và', 'có', 'tại sao',
-            'nhỉ', 'là', 'nên', 'ơi', 'bạn', 'giúp', 'tại', 'thế', 'nào', 'như'
+            'nhỉ', 'là', 'nên', 'ơi', 'bạn', 'giúp', 'tại', 'thế', 'nào', 'như', 'gì', 'sao',
+            'à', 'thể', 'nhiên', 'tuy'
         ]
         self.data_utils = Data_Utils()
         self.io_utils = Io_Utils()
@@ -34,9 +35,10 @@ class CS():
             flat = vals.flatten()
             flat.sort()
             req_tfidf = flat[-1]
-            if req_tfidf > 0.40:
+            if req_tfidf > 0.50:
                 idx = vals.argsort()[0][-1]
                 label = self.data_utils.labels[idx]
+                print(self.sentences[idx])
             else:
                 label = 0
             labels.append(label)

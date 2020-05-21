@@ -17,15 +17,17 @@ if __name__ == '__main__':
 
     cs.fit(X, y)
     cs_greeting.fit(X_greeting, y_greeting)
-    sentences = ['hihi']
+    sentences = ['có gì vui']
     pred = cs.predict(sentences)
     cl_id = pred[0]
+    print(cl_id)
     if cl_id == 0:
         cl_other_id = cs_greeting.predict(sentences)[0]
+        print(cl_other_id)
         if cl_other_id != 0:
             answer = random.choice(map_greeting[cl_other_id].split('|')).strip()
         else:
             answer = cs.response_answer(-1)
     else:
         answer = cs.response_answer(cl_id)
-    print(answer)
+    # print(answer)

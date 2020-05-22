@@ -35,7 +35,7 @@ class CS():
             flat = vals.flatten()
             flat.sort()
             req_tfidf = flat[-1]
-            if req_tfidf > 0.50:
+            if req_tfidf > 0.35:
                 idx = vals.argsort()[0][-1]
                 label = self.data_utils.labels[idx]
                 print(self.sentences[idx])

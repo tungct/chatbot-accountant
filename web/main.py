@@ -37,7 +37,7 @@ def response_message():
         if cl_other_id != 0:
             answer = random.choice(map_greeting[cl_other_id].split('|')).strip()
         else:
-            answer = cs.response_answer(-1)
+            answer = cs.response_answer(0)
     else:
         answer = cs.response_answer(cl_id)
     return json.dumps({

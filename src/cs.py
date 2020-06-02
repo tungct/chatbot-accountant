@@ -35,7 +35,8 @@ class CS():
             flat = vals.flatten()
             flat.sort()
             req_tfidf = flat[-1]
-            if req_tfidf > 0.35:
+            print(req_tfidf)
+            if req_tfidf > 0.45:
                 idx = vals.argsort()[0][-1]
                 label = self.data_utils.labels[idx]
                 print(self.sentences[idx])
@@ -47,7 +48,7 @@ class CS():
     def response_answer(self, cl_id):
         answer = self.map_qa[cl_id]
         return answer
-
+from sklearn.metrics import classification_report
 
 if __name__ == '__main__':
     sentences = ['Tôi muốn phân bổ tự động tài sản cố định trên phần mềm thì phải nhập thế nào',
@@ -62,26 +63,49 @@ if __name__ == '__main__':
 
     X, y = zip(*c)
     # scores = cross_val_score(clf, X, y, cv=5)
-    kfold = StratifiedKFold(n_splits=7, shuffle=True, random_state=100)
+    kfold = StratifiedKFold(n_splits=5, shuffle=True, random_state=100)
     cvscores = []
     acc = []
+    precision_all, recall_all, f1_all = [], [], []
     for train, test in kfold.split(X, y):
         X_train, y_train = [X[train[int(idx)]] for idx in range(len(train))], [y[train[int(idx)]] for idx in range(len(train))]
         X_test, y_test = [X[test[int(idx)]] for idx in range(len(test))], [y[test[int(idx)]] for idx in range(len(test))]
         clf.fit(X_train, y_train)
         y_pred = clf.predict(X_test)
-        # for i in range(len(y_pred)):
-        #     if y_pred[i] == 0:
-        #         y_test[i] = 0
+        for i in range(len(y_pred)):
+            if y_pred[i] == 0:
+                y_test[i] = 0
         print(X_test)
         print(y_pred)
         print(y_test)
         print(accuracy_score(y_test, y_pred))
         acc.append(accuracy_score(y_test, y_pred))
+        report = classification_report(y_test, y_pred)
+        print(report)
+        avg = report.split('avg / total')[-1]
+        avg = [a.strip() for a in avg.split(' ') if a != '']
+        precision, recall, f1 = float(avg[0]), float(avg[1]), float(avg[2])
+        precision_all.append(precision)
+        recall_all.append(recall)
+        f1_all.append(f1)
+
     print(mean(acc))
+    print(mean(precision_all))
+    print(mean(recall_all))
+    print(mean(f1_all))
 
     # clf.fit(X, y)
     # y = clf.predict(sentences)
     # print(y)
 
+# acc 0.801908620116
+# precision 0.796
+# recall 0.802
+# f1 0.786
 
+
+# 0
+# 0.862959017994
+# 0.836
+# 0.862
+# 0.84

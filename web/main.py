@@ -15,7 +15,6 @@ cs_greeting = CS()
 greeting = Greeting()
 X_greeting, y_greeting, map_greeting = greeting.sentences, greeting.labels, greeting.map_greeting
 cs_greeting.map_qa = map_greeting
-# X, y = X + X_greeting, y + y_greeting
 
 cs.fit(X, y)
 cs_greeting.fit(X_greeting, y_greeting)

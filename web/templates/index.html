@@ -59,45 +59,6 @@
   });
   function emoji(message){
     let mes = message;
-    if(message.includes(":)")){
-      mes = mes.replace(/:\)/g,"<i class='em em-slightly_smiling_face'></i>")
-    }
-    if(message.includes(":(")){
-      mes = mes.replace(/:\(/g,"<i class='em em-disappointed'></i>")
-    }
-    if(message.includes(":D")){
-      mes = mes.replace(/:D/g,"<i class='em em-smiley'></i>")
-    }
-    if(message.includes("<3")){
-      mes = mes.replace(/<3/g,"<i class='em em-hearts'></i>")
-    }
-    if(message.includes(":/")){
-      mes = mes.replace(/:\//g,"<i class='em em-face_with_rolling_eyes'></i>")
-    }
-    if(message.includes(":o")){
-      mes = mes.replace(/:o/g,"<i class='em em-hushed'></i>")
-    }
-    if(message.includes(":*")){
-      mes = mes.replace(/:\*/g,"<i class='em em-kissing_smiling_eyes'></i>")
-    }
-    if(message.includes(":|")){
-      mes = mes.replace(/:\|/g,"<i class='em em-neutral_face'></i>")
-    }
-    if(message.includes(">.<")){
-      mes = mes.replace(/>\.</g,"<i class='em em-persevere'></i>")
-    }
-    if(message.includes(":j")){
-      mes = mes.replace(/:j/g,"<i class='em em-smirk'></i>")
-    }
-    if(message.includes(":P")){
-      mes = mes.replace(/:P/g,"<i class='em em-stuck_out_tongue'></i>")
-    }    
-    if(message.includes(":;")){
-      mes = mes.replace(/:;/g,"<i class='em em-wink'></i>")
-    }
-    if(message.includes("-_-")){
-      mes = mes.replace(/-_-/g,"<i class='em em-expressionless'></i>")
-    }
     return mes
   }
   function handleSubmit() {

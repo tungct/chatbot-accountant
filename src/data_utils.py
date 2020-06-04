@@ -14,7 +14,6 @@ stop_words = [
 class Data_Utils():
     def __init__(self):
         self.TfidfVec = TfidfVectorizer()
-        self.CountVec = CountVectorizer()
         self.io_utils = Io_Utils()
         self.sent_tokens, self.labels = self.load_data(setting.TRAIN_PATH)
         #if os.path.exists(setting.TFIDF_DOC_PATH) == False:
@@ -64,7 +63,7 @@ class Data_Utils():
             sent = self.normalize_sentence(sent)
             sent_tokens[idx] = sent
         self.tfidf = self.TfidfVec.fit_transform(sent_tokens)
-        self.count = self.CountVec.fit_transform(sent_tokens)
+
 
         # self.io_utils.save_pickle(self.TfidfVec, setting.TFIDF_VEC_PATH)
         # self.io_utils.save_pickle(self.tfidf, setting.TFIDF_DOC_PATH)

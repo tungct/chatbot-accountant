@@ -9,7 +9,7 @@ class Greeting():
         map_greeting = {
             0: 'Tôi sẽ trả lời sau'
         }
-        with open(setting.GREETING_PATH, 'r') as f:
+        with open(setting.GREETING_PATH, 'r', encoding='utf8', errors='ignore') as f:
             datas = f.readlines()
         all = [data.strip() for data in datas if data != '\n']
         len_greet_ = 0

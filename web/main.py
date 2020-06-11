@@ -8,10 +8,10 @@ from src.cs import CS
 from src.greeting_utils import Greeting
 import random
 
-cs = CS()
+cs = CS(threshold=0.45)
 X, y = cs.data_utils.sent_tokens, cs.data_utils.labels
 
-cs_greeting = CS()
+cs_greeting = CS(threshold=0.35)
 greeting = Greeting()
 X_greeting, y_greeting, map_greeting = greeting.sentences, greeting.labels, greeting.map_greeting
 cs_greeting.map_qa = map_greeting
@@ -29,7 +29,7 @@ def response_message():
     question = request.form['m']
     cl_id = cs.predict([question])[0]
     print(cl_id)
-    with open(setting.LOG_PATH, 'a') as f:
+    with open(setting.LOG_PATH, 'a', encoding='utf-8') as f:
         f.write(question + '\n' + str(cl_id) + '\n' + '---' + '\n')
     if cl_id == 0:
         cl_other_id = cs_greeting.predict([question])[0]

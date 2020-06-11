@@ -291,3 +291,60 @@ chương trình bảo hành thế nào
 thế à
 0
 ---
+bot có khỏe không
+0
+---
+tài sản cố định
+4
+---
+hàng hóa
+2
+---
+bot có khỏe không
+0
+---
+hello
+0
+---
+tài sản cố định
+4
+---
+hàng hóa
+2
+---
+mình muốn hỏi về khóa cứng
+22
+---
+phức tạp nhỉ
+0
+---
+mình muốn hỏi thêm là liệu có chương trình khuyến mãi hay gì với khách hàng lâu năm như mình không vậy
+0
+---
+cho tôi hỏi
+1
+---
+mới hỏi thôi mà
+0
+---
+phần mềm bị lỗi 214 rồi thoát ra khỏi màn hình
+0
+---
+tôi tính toán mãi không thấy dừng
+14
+---
+chị không nhập được số dư đầu, cứ nhập là lại bị mất
+5
+---
+tôi muốn hỏi về hóa đơn điện tử
+0
+---
+xin chào bạn
+0
+---
+cho tôi hỏi
+1
+---
+cho tôi hỏi
+0
+---

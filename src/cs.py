@@ -1,25 +1,22 @@
 from src.io_utils import Io_Utils
 from sklearn.metrics.pairwise import cosine_similarity
-import setting
 from random import shuffle
-from sklearn.model_selection import cross_val_score
 from src.data_utils import Data_Utils
 from sklearn.model_selection import StratifiedKFold
 from statistics import mean
 from sklearn.metrics import accuracy_score
 
 class CS():
-    def __init__(self):
+    def __init__(self, threshold):
         self.stop_words = [
             'tôi', 'em', 'chị', 'mình', 'với', 'vậy', 'như thế nào', 'không', 'thế nào',
             'thì', 'muốn', 'mà', 'để', 'phải', 'hãy', 'đang', 'cần', 'và', 'có', 'tại sao',
             'nhỉ', 'là', 'nên', 'ơi', 'bạn', 'giúp', 'tại', 'thế', 'nào', 'như', 'gì', 'sao',
             'à', 'thể', 'nhiên', 'tuy'
         ]
+        self.threshold = threshold
         self.data_utils = Data_Utils()
         self.io_utils = Io_Utils()
-        # self.tfidf_vec = self.io_utils.load_pickle(setting.TFIDF_VEC_PATH)
-        # self.tfidf_doc = self.io_utils.load_pickle(setting.TFIDF_DOC_PATH)
         self.map_qa = self.data_utils.map_qa()
 
     def fit(self, sentences, labels):
@@ -36,7 +33,7 @@ class CS():
             flat.sort()
             req_tfidf = flat[-1]
             print(req_tfidf)
-            if req_tfidf > 0.45:
+            if req_tfidf > self.threshold:
                 idx = vals.argsort()[0][-1]
                 label = self.data_utils.labels[idx]
                 print(self.sentences[idx])

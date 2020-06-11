@@ -7,7 +7,7 @@ if __name__ == '__main__':
              'bạn tên là gì thế',
              'bạn xinh quá'
              ]
-    cs = CS()
+    cs = CS(threshold=0.45)
     greeting = Greeting()
     sentences, labels, map_greeting = greeting.sentences, greeting.labels, greeting.map_greeting
     cs.map_qa = map_greeting

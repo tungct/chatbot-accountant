@@ -7,10 +7,10 @@ from src.greeting_utils import Greeting
 import random
 
 if __name__ == '__main__':
-    cs = CS()
+    cs = CS(threshold=0.45)
     X, y = cs.data_utils.sent_tokens, cs.data_utils.labels
 
-    cs_greeting = CS()
+    cs_greeting = CS(threshold=0.45)
     greeting = Greeting()
     X_greeting, y_greeting, map_greeting = greeting.sentences, greeting.labels, greeting.map_greeting
     cs_greeting.map_qa = map_greeting
